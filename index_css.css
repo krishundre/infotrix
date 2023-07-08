@@ -1,0 +1,352 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#heading{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    width: 100%;  
+    padding-bottom: 10px;
+}
+
+#icons{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 160px;
+    width: 220px;
+    height: 35px;
+}
+
+#icons a{
+    color: white;
+    text-decoration: none;
+}
+
+#icons a i{
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+}
+
+#first_pic{
+    width: 500px;
+    height: 500px;
+    padding-top: 150px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#icons_title {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    text-align: center;
+    width: 155px;
+}
+
+#icons_title h1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    text-align: center;
+    width: 255px;
+}
+
+#shadedbox1{
+    height: 120px;
+    background-image: linear-gradient(to bottom, #000000,#7b7b7b , grey);
+}
+
+#content{
+    background-color: gray;
+}
+
+#content h3{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.dr_info-main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-main {
+    height: 100px;
+    width: 32rem;
+    border-radius: 1rem;
+    position: relative;
+    transform-style: preserve-3d;
+    justify-content: center;
+    transition: all .4s ease;
+    align-items: center;
+    margin: 0.5rem;
+    margin-bottom: 20px;
+}
+
+.front-card {
+    border-color: bisque;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.front-card a {
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+.front-card:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    
+}
+
+.card-main:hover .texts{
+    background-color: white;
+    color: black;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+ 
+.texts{
+    display: none;
+}  
+
+.card-main:hover{
+    height: 150px;
+}
+.card-main:hover .texts{
+    display: block;
+}
+
+
+#shadedbox2{
+    height: 120px;
+    background-image: linear-gradient(to bottom, grey, white);
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about_me{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#about_me_content{
+    display: block;
+    padding: 20px;
+    margin: 200px;
+    margin-top: -50px;
+    margin-bottom: 0px;
+}
+
+#about_me_pic{
+    width: 140px;
+    height: 110px;
+    align-items: center;
+}
+
+#second_pic{
+    width: 600px;
+    height: 580px;
+    filter: grayscale(70%);
+    border-radius: 15px;
+    margin: 15px;
+    margin-left: 205px;
+}
+
+#about_me_content img{
+    display: flex;
+    padding-left: 85px;
+}
+
+#about_me_content h3{
+    text-align: center;
+    font-size: xx-large ;
+}
+
+#about_me_content p{
+    text-align: center;
+    font-size: x-large  ;
+}
+
+.edu_card
+{
+    display: block;
+    text-align: center;
+    border: #000000 dotted;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all .4s ease;
+}
+
+.texts2{
+    display: none;
+}
+
+
+.edu_card:hover .texts2{
+    display: block;
+}
+
+#shadebox3{
+    height: 120px;
+    background-image: linear-gradient(to bottom, white , grey, #6d6d6d);
+}
+#internships{
+    display:  block;
+    justify-content: center;
+    background-color: #6d6d6d;
+}
+
+#internships h2{
+    justify-content: center;
+    align-items: center;
+    display: contents;
+}
+
+#span1{
+    padding-left: 660px;
+}
+
+#intern_info{
+    display: block;
+    height: 100px;
+    width: 650px;
+    border: solid;
+    
+    margin-left: 450px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: all .4s ease;
+}
+
+#intern_info h4{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+#intern_info p{
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+}
+
+.texts3{
+    display: none;
+}
+
+#intern_info:hover{
+    height: auto;
+}
+
+#intern_info:hover .texts3{
+    display: block;
+}
+
+#portfolio{
+    display: block;
+    display:  block;
+    justify-content: center;
+    background-color: rgb(135, 223, 223);
+    text-align: center;
+}
+hr{
+    margin: 0px;
+}
+#portfolio h4{
+    margin: 0px;
+}
+
+#portfolio h4 a{
+    text-decoration: none;
+    color: rgb(177, 122, 53);
+    font-size: large;
+}
+
+#span2{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+#creator_info{
+    text-align: center;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(143, 143, 143, 0.856);
+}
+
+#shadebox4{
+    height: 120px;
+    background-image: linear-gradient(to bottom, #6d6d6d, #87DFDF );
+}
+
+#options {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+#options ul li {   
+    text-decoration: none;
+    display: flex;
+}
+
+#options li a{   
+    font-size: 25px;
+    cursor: pointer;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+}
+
